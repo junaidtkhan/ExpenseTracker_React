@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-    <h1> Hello! First App</h1>
+    <h1> JSX </h1>
     </div>
     
   );

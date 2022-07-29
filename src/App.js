@@ -1,11 +1,7 @@
-
+import './App.css';
 function App() {
-  return (
-    <div>
-    <h1> JSX </h1>
-    </div>
-    
-  );
+  const jsx = <h1>JSX is Awesome..!!</h1>
+  return jsx
 }
 
 export default App;

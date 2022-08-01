@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
+
+
+ 
 function App() {
+
 
   const pets = [
     {
@@ -19,9 +23,9 @@ function App() {
     }
   ]
   return (
-    <div className='App'>
+    <div  className='App'>
       <h1>My Pets</h1>
-      <ul>{
+      <ul className='container'>{
         pets.map((pet, index) => (
           <li key={index}>
             <h1>{pet.name}</h1>
@@ -32,7 +36,7 @@ function App() {
               width="200px"
               height="200px"
             />
-            <ul>
+            <ul className='skills'>
               {
                 pet.skills.map((skill, index) => (
                   <li key={index}>

@@ -1,3 +1,22 @@
+li {
+  list-style: none;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container > li {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .App {
   text-align: center;
 }

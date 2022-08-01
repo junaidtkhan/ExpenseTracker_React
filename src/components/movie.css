@@ -1,0 +1,32 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 00.5rem;
+}
+.movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid black;
+  inline-size: 150px;
+  /* overflow: hidden; */
+}
+li {
+  list-style: none;
+}
+h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}

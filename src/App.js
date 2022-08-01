@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import { MovieComponent } from './components/Moviecomponents';
 
 
 function App() {
@@ -8,8 +8,12 @@ function App() {
 
 
   return (
-    <h2 className='container'>We learning Components</h2>
-  )
+
+    <div className='App'>
+      
+      <MovieComponent/>
+    </div>
+  );
 }
 
 export default App;

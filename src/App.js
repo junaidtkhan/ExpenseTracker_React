@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { MovieComponent } from './components/Moviecomponents';
+import { MovieComponent } from './MovieStore/Moviecomponents';
 import { Colorizer } from './colorize/colorize';
-
+import { Incrementer } from './Incrementer/incrementer';
 function App() {
 
 
@@ -10,7 +10,6 @@ function App() {
   return (
 
     <div className='App'>
-      <Colorizer/>
       
     </div>
   );

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import './colorrizer.css';
 export const Colorizer = () => {
+    
     const [color, setColor] = useState('#6d0e0e');
     
     const random_hex_color_code = () => {

@@ -3,8 +3,8 @@ import './App.css';
 import { MovieComponent } from './MovieStore/Moviecomponents';
 import { Colorizer } from './colorize/colorize';
 import { Incrementer } from './Incrementer/incrementer';
-import ExpenseItem from './ExpensTracker/ExpenseItem';
-import { Expense } from './ExpensTracker/Expense';
+
+import { Expense } from './ExpensTracker/Expenses/Expense';
 function App() {
 
   const expenses = [
@@ -32,9 +32,14 @@ function App() {
       amount: 450,
       date: new Date(2021, 5, 12),
     },
+    {
+      id: 'e4',
+      title: 'Keyboard)',
+      amount: 2400,
+      date: new Date(2022, 5, 12),
+    }
   ];
   return (
-
 
     <div className='App'>
       <h2>React APP</h2>

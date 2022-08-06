@@ -50,7 +50,7 @@ function App() {
   return (
 
     <div className='App'>
-      <h2 style={{justifyContent: 'center', alignItems:'center'}}>Expense Tracker</h2>
+      <h2>Expense Tracker</h2>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expense items={expenses} />
     </div>

@@ -50,7 +50,7 @@ function App() {
   return (
 
     <div className='App'>
-      <h2>React APP</h2>
+      <h2 style={{justifyContent: 'center', alignItems:'center'}}>Expense Tracker</h2>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expense items={expenses} />
     </div>
